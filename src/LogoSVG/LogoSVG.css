@@ -1,10 +1,10 @@
 .svg-container {
   fill: transparent;
   stroke: #fff;
-  stroke-width: 4px;
+  stroke-width: 2px;
   stroke-linecap: round;
 }
 
 .svg-part {
-  /*display: none;*/
+  display: none;
 }

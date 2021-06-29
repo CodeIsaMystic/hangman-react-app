@@ -8,7 +8,6 @@ import Game from '../Game/Game'
 
 
 
-
 class App extends Component {
   constructor(props) {
     super(props)
@@ -17,11 +16,11 @@ class App extends Component {
   render() {
 
     return (
-    <div data-test="component-app">
-      <h1>Hangman: programing theme</h1>
-      <p>[Find the hidden word - Enter a letter]</p>
-      <Game />
-    </div>
+      <div className="app-container" data-test="component-app">
+        <h1>Hangman: programing theme</h1>
+        <p>[Find the hidden word - Enter a letter]</p>
+        <Game />
+      </div>
     )
   }
 }

@@ -6,15 +6,18 @@ body {
   background-color: #34495e;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 40px 0 0;
+}
+
+.app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 80vh;
   margin: 0;
   overflow: hidden;
-}
-
-h1 {
-  margin: 40px 0 0;
 }
 
