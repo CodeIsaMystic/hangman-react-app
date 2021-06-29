@@ -7,7 +7,7 @@ import './WrongLetters.css'
 
 const WrongLetters = () => {
   return(
-    <div className="wrong-letters-container" data-test="wrong-letters-container"> 
+    <div className="wrong-letters-container" data-test="wrong-letters-component"> 
       <div id="wrong-letters">
         <p>Sorry it's <span> wrong </span></p>
       </div>

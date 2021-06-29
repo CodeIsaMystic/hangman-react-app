@@ -1,6 +1,8 @@
 import Enzyme, { shallow } from 'enzyme'
 import EnzymeAdapter from '@wojtekmaj/enzyme-adapter-react-17' 
 
+
+import { findByTestAttribute } from '../../test/testUtils'
 import App from './App';
 
 Enzyme.configure({ adapter: new EnzymeAdapter() })
@@ -14,7 +16,6 @@ Enzyme.configure({ adapter: new EnzymeAdapter() })
 const setup = () => shallow(<App />)
 
 
-const findByTestAttribute = (wrapper, value) => wrapper.find(`[data-test="${value}"]`) 
 
 
 test('renders App main class without error', () => {

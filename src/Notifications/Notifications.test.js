@@ -8,7 +8,7 @@ Enzyme.configure({ adapter: new EnzymeAdapter() })
 
 
 /**
- * Factory function to create a ShallowWrapper for the App component.
+ * Factory function to create a ShallowWrapper for the Wrong Letters component.
  * @function setup
  * @returns {ShallowWrapper}
  */
@@ -18,7 +18,7 @@ Enzyme.configure({ adapter: new EnzymeAdapter() })
  const findByTestAttribute = (wrapper, value) => wrapper.find(`[data-test="${value}"]`) 
  
  
- test('renders App main class without error', () => {
+ test('renders Notifications Component without error', () => {
    const wrapper = setup()
    const notificationsComponent = findByTestAttribute(wrapper, "notifications-component")
  

@@ -1,5 +1,4 @@
 
-
 /**
  * Return node(s) with the given data-test attribute.
  * @param {ShallowWrapper} wrapper - Enzyme shallow wrapper 
