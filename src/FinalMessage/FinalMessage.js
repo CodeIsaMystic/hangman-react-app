@@ -3,7 +3,13 @@ import React from 'react'
 import './FinalMessage.css'
 
 
-const FinalMessage = () => {
+/**
+ * Functional react component for notifications message
+ * @function
+ * @param {object} props - React props.
+ * @returns {JSX.Element} - Rendered component (or null if `success` prop is false
+ */
+const FinalMessage = ({ success }) => {
   return( 
     <div className="popup-container" id="popup-container" data-test="final-message-component">
       <div className="popup">

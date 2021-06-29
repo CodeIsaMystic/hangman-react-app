@@ -4,7 +4,13 @@ import './Notifications.css'
 
 
 
-const Notifications = () => {
+/**
+ * Functional react component for notifications message
+ * @function
+ * @param {object} props - React props.
+ * @returns {JSX.Element} - Rendered component (or null if `letter` prop is not already pressed)
+ */
+const Notifications = ({ letter }) => {
   return (
     <div className="notifications-container" 
          id="notifications-container"
@@ -13,5 +19,7 @@ const Notifications = () => {
     </div>
   )
 }
+
+
 
 export default Notifications
